@@ -12,8 +12,8 @@ env:
   SONAR_SCANNER_OPTS: "-Xms8G -Xmx8G"
 
 jobs:
-  build:
-    name: Build
+  scan:
+    name: Scan
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
